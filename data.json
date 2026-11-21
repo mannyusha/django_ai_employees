@@ -1,2007 +1,2007 @@
-[
-{
-  "model": "admin.logentry",
-  "pk": 1,
-  "fields": {
-    "action_time": "2026-11-16T14:34:02.609Z",
-    "user": 1,
-    "content_type": 12,
-    "object_id": "7",
-    "object_repr": "assistant: Hello, this is Maya from CoolBreeze AC. How can I ",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2026-11-17T07:33:39.158Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "1",
-    "object_repr": "Conversation #1 - rathan /Order #4",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2026-11-18T11:24:00.809Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "2",
-    "object_repr": "Conversation #2 - rathan /Order #1",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2026-11-18T11:25:46.789Z",
-    "user": 1,
-    "content_type": 4,
-    "object_id": "5",
-    "object_repr": "fraud_test",
-    "action_flag": 2,
-    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2026-11-19T07:57:26.074Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "3",
-    "object_repr": "Conversation #3 - fraud_test /Order #13",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.512Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "90",
-    "object_repr": "[final] - You're right, and I'm sorry. Your order ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.512Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "89",
-    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.512Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "88",
-    "object_repr": "[manager] - Decision: **Decision: Approve refund of ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.512Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "87",
-    "object_repr": "[risk] - Verdict: I can't give a risk verdict for",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.512Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "86",
-    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.512Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "85",
-    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "84",
-    "object_repr": "[risk] - Starting fraud assessment for user 3",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "83",
-    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 14,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "82",
-    "object_repr": "[manager] - Case received for review: Customer User ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 15,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "81",
-    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 16,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "80",
-    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 17,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "79",
-    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 18,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "78",
-    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 19,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "77",
-    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 20,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "76",
-    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 21,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "75",
-    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 22,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "74",
-    "object_repr": "[final] - Thanks for your patience. I checked with",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 23,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "73",
-    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 24,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "72",
-    "object_repr": "[manager] - Decision: **Decision: Deny refund for no",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 25,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "71",
-    "object_repr": "[risk] - Verdict: I can't give a risk verdict for",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 26,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "70",
-    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 27,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "69",
-    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 28,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "68",
-    "object_repr": "[risk] - Starting fraud assessment for user 3",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 29,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "67",
-    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 30,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "66",
-    "object_repr": "[manager] - Case received for review: Customer User ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 31,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "65",
-    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 32,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "64",
-    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 33,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "63",
-    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 34,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "62",
-    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 35,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "61",
-    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 36,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "60",
-    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 37,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "59",
-    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 38,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "58",
-    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 39,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "57",
-    "object_repr": "[manager] - Decision: **Decision: Approve refund of ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 40,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "56",
-    "object_repr": "[risk] - Verdict: **Risk Level:** Cannot be deter",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 41,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "55",
-    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 42,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "54",
-    "object_repr": "[risk] - Starting fraud assessment for user 3",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 43,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "53",
-    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 44,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "52",
-    "object_repr": "[manager] - Case received for review: Customer User ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 45,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "51",
-    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 46,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "50",
-    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 47,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "49",
-    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 48,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "48",
-    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 49,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "47",
-    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 50,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "46",
-    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 51,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "45",
-    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 52,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "44",
-    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 53,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "43",
-    "object_repr": "[manager] - Decision: **Decision: Deny refund for no",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 54,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "42",
-    "object_repr": "[risk] - Verdict: **Risk Level:** Cannot be deter",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 55,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "41",
-    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 56,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "40",
-    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 57,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "39",
-    "object_repr": "[risk] - Starting fraud assessment for user 3",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 58,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "38",
-    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 59,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "37",
-    "object_repr": "[manager] - Case received for review: Customer User ",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 60,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "36",
-    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 61,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "35",
-    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 62,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "34",
-    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 63,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "33",
-    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 64,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "32",
-    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 65,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "31",
-    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 66,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "30",
-    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 67,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "29",
-    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 68,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "28",
-    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 69,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "27",
-    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 70,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "26",
-    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 71,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "25",
-    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 72,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "24",
-    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 73,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "23",
-    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 74,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "22",
-    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 75,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "21",
-    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 76,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "20",
-    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 77,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "19",
-    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 78,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "18",
-    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 79,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "17",
-    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 80,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "16",
-    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 81,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "15",
-    "object_repr": "[final] - Hi, this is Maya from CoolBreeze AC. I c",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 82,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "14",
-    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 83,
-  "fields": {
-    "action_time": "2026-11-19T08:50:10.513Z",
-    "user": 1,
-    "content_type": 10,
-    "object_id": "13",
-    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 84,
-  "fields": {
-    "action_time": "2026-11-19T08:50:17.925Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "4",
-    "object_repr": "Conversation #4 - priya /Order #6",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 85,
-  "fields": {
-    "action_time": "2026-11-21T09:35:18.742Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "8",
-    "object_repr": "Conversation #8 - rathan /Order #2",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 86,
-  "fields": {
-    "action_time": "2026-11-21T09:35:18.742Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "7",
-    "object_repr": "Conversation #7 - rathan /Order #3",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 87,
-  "fields": {
-    "action_time": "2026-11-21T09:35:18.742Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "6",
-    "object_repr": "Conversation #6 - arjun /Order #9",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 88,
-  "fields": {
-    "action_time": "2026-11-21T09:35:18.742Z",
-    "user": 1,
-    "content_type": 11,
-    "object_id": "5",
-    "object_repr": "Conversation #5 - priya /Order #6",
-    "action_flag": 3,
-    "change_message": ""
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 1,
-  "fields": {
-    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
-    "last_login": "2026-11-21T09:35:01.469Z",
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "Admin",
-    "last_name": "",
-    "email": "mannyusha07@gmail.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2024-01-01T00:00:00Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 2,
-  "fields": {
-    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
-    "last_login": "2026-11-21T07:01:10.748Z",
-    "is_superuser": false,
-    "username": "rathan",
-    "first_name": "Rathan",
-    "last_name": "Kumar",
-    "email": "rathan.kumar@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2024-01-01T00:00:00Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 3,
-  "fields": {
-    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
-    "last_login": "2026-11-20T14:39:47.070Z",
-    "is_superuser": false,
-    "username": "priya",
-    "first_name": "Priya",
-    "last_name": "Sharma",
-    "email": "priya.sharma@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2024-01-01T00:00:00Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 4,
-  "fields": {
-    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
-    "last_login": "2026-11-19T09:14:48.080Z",
-    "is_superuser": false,
-    "username": "arjun",
-    "first_name": "Arjun",
-    "last_name": "Nair",
-    "email": "arjun.nair@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2024-01-01T00:00:00Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "auth.user",
-  "pk": 5,
-  "fields": {
-    "password": "pbkdf2_sha256$1500000$oQ2v0d9l2nJOASrH75h4hU$tOc8ee5OrCvdu0WcGtuw3md9F+3vGdM8T9GJjlW0RTE=",
-    "last_login": "2026-11-18T11:25:58.941Z",
-    "is_superuser": false,
-    "username": "fraud_test",
-    "first_name": "John",
-    "last_name": "Doe",
-    "email": "fraud.test@gmail.com",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2024-01-01T00:00:00Z",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 1,
-  "fields": {
-    "name": "CoolBreeze 1 Ton 3 Star Window AC",
-    "description": "Energy efficient 1 ton window AC with 3 star rating, auto restart, sleep mode and dust filter. Ideal for rooms up to 120 sq ft.",
-    "price": "28999.00",
-    "category": "Window AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 2,
-  "fields": {
-    "name": "CoolBreeze 1.5 Ton 3 Star Split AC",
-    "description": "1.5 ton split AC with 3 star rating, turbo cool technology, auto clean and dehumidifier function. Ideal for rooms up to 180 sq ft.",
-    "price": "34999.00",
-    "category": "Split AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 3,
-  "fields": {
-    "name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
-    "description": "Premium 1.5 ton inverter split AC with 5 star rating, wifi control, auto diagnosis and 4 way swing. Ideal for rooms up to 180 sq ft.",
-    "price": "42999.00",
-    "category": "Split AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 4,
-  "fields": {
-    "name": "CoolBreeze 2 Ton 3 Star Split AC",
-    "description": "Heavy duty 2 ton split AC with 3 star rating, rapid cooling, self cleaning filter and auto restart after power cut. Ideal for rooms up to 240 sq ft.",
-    "price": "45999.00",
-    "category": "Split AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 5,
-  "fields": {
-    "name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
-    "description": "Compact 1 ton inverter split AC with 5 star rating, voice control, pm 2.5 filter and weekly timer. Ideal for rooms up to 120 sq ft.",
-    "price": "38999.00",
-    "category": "Split AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 6,
-  "fields": {
-    "name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
-    "description": "Commercial grade 2 ton cassette AC with 5 star inverter rating, 360 degree airflow, central drain pump and remote diagnostics. Ideal for offices up to 300 sq ft.",
-    "price": "68999.00",
-    "category": "Cassette AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 7,
-  "fields": {
-    "name": "CoolBreeze 1.5 Ton Portable AC",
-    "description": "No installation required portable AC with 1.5 ton capacity, dual fan speed, dehumidifier mode and 24 hour timer. Ideal for temporary cooling needs.",
-    "price": "32999.00",
-    "category": "Portable AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 8,
-  "fields": {
-    "name": "CoolBreeze 2 Ton Tower AC",
-    "description": "Floor standing 2 ton tower AC with inverter technology, 7 speed fan, air purifier with HEPA filter and child lock. Ideal for large halls up to 280 sq ft.",
-    "price": "55999.00",
-    "category": "Tower AC",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 9,
-  "fields": {
-    "name": "CoolBreeze AC Voltage Stabilizer 5KVA",
-    "description": "Heavy duty voltage stabilizer for ACs up to 2 ton. Protects against voltage fluctuations between 90V to 290V with time delay and digital display.",
-    "price": "4999.00",
-    "category": "Accessories",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.product",
-  "pk": 10,
-  "fields": {
-    "name": "CoolBreeze Universal AC Remote Control",
-    "description": "Universal remote compatible with all CoolBreeze AC models. Features LCD display, timer, sleep mode and turbo button. Includes 2 AAA batteries.",
-    "price": "899.00",
-    "category": "Accessories",
-    "in_stock": true
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 1,
-  "fields": {
-    "user": 2,
-    "product": 3,
-    "product_name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
-    "amount": "42999.00",
-    "status": "dispatched",
-    "carrier": "BlueDart",
-    "tracking_number": "BD99281733",
-    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
-    "created_at": "2025-04-26T10:30:00Z",
-    "updated_at": "2025-04-26T10:30:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 2,
-  "fields": {
-    "user": 2,
-    "product": 2,
-    "product_name": "CoolBreeze 1.5 Ton 3 Star Split AC",
-    "amount": "34999.00",
-    "status": "delivered",
-    "carrier": "Delhivery",
-    "tracking_number": "DL44729103",
-    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
-    "created_at": "2025-03-11T14:00:00Z",
-    "updated_at": "2025-03-11T14:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 3,
-  "fields": {
-    "user": 2,
-    "product": 9,
-    "product_name": "CoolBreeze AC Voltage Stabilizer 5KVA",
-    "amount": "4999.00",
-    "status": "delivered",
-    "carrier": "Delhivery",
-    "tracking_number": "DL88103742",
-    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
-    "created_at": "2025-02-16T09:15:00Z",
-    "updated_at": "2025-02-16T09:15:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 4,
-  "fields": {
-    "user": 2,
-    "product": 10,
-    "product_name": "CoolBreeze Universal AC Remote Control",
-    "amount": "899.00",
-    "status": "cancelled",
-    "carrier": "",
-    "tracking_number": "",
-    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
-    "created_at": "2025-04-28T16:45:00Z",
-    "updated_at": "2025-04-28T16:45:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 5,
-  "fields": {
-    "user": 2,
-    "product": 5,
-    "product_name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
-    "amount": "38999.00",
-    "status": "pending",
-    "carrier": "",
-    "tracking_number": "",
-    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
-    "created_at": "2025-04-30T20:00:00Z",
-    "updated_at": "2025-04-30T20:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 6,
-  "fields": {
-    "user": 3,
-    "product": 6,
-    "product_name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
-    "amount": "68999.00",
-    "status": "dispatched",
-    "carrier": "Ekart",
-    "tracking_number": "EK556612309",
-    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
-    "created_at": "2025-04-27T11:00:00Z",
-    "updated_at": "2025-04-27T11:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 7,
-  "fields": {
-    "user": 3,
-    "product": 4,
-    "product_name": "CoolBreeze 2 Ton 3 Star Split AC",
-    "amount": "45999.00",
-    "status": "delivered",
-    "carrier": "BlueDart",
-    "tracking_number": "BD77412390",
-    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
-    "created_at": "2025-03-01T08:30:00Z",
-    "updated_at": "2025-03-01T08:30:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 8,
-  "fields": {
-    "user": 4,
-    "product": 1,
-    "product_name": "CoolBreeze 1 Ton 3 Star Window AC",
-    "amount": "28999.00",
-    "status": "delivered",
-    "carrier": "Delhivery",
-    "tracking_number": "DL33219876",
-    "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
-    "created_at": "2025-03-15T13:20:00Z",
-    "updated_at": "2025-03-15T13:20:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 9,
-  "fields": {
-    "user": 4,
-    "product": 8,
-    "product_name": "CoolBreeze 2 Ton Tower AC",
-    "amount": "55999.00",
-    "status": "dispatched",
-    "carrier": "BlueDart",
-    "tracking_number": "BD10293847",
-    "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
-    "created_at": "2025-04-25T17:10:00Z",
-    "updated_at": "2025-04-25T17:10:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 10,
-  "fields": {
-    "user": 3,
-    "product": 7,
-    "product_name": "CoolBreeze 1.5 Ton Portable AC",
-    "amount": "32999.00",
-    "status": "pending",
-    "carrier": "",
-    "tracking_number": "",
-    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
-    "created_at": "2025-05-01T10:00:00Z",
-    "updated_at": "2025-05-01T10:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 11,
-  "fields": {
-    "user": 5,
-    "product": 1,
-    "product_name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
-    "amount": "42999.00",
-    "status": "delivered",
-    "carrier": "BlueDart",
-    "tracking_number": "BD11111111",
-    "delivery": "22, MG Road, Pune - 411001",
-    "created_at": "2025-01-10T10:00:00Z",
-    "updated_at": "2025-01-10T10:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 12,
-  "fields": {
-    "user": 5,
-    "product": 2,
-    "product_name": "CoolBreeze 1.5 Ton 3 Star Split AC",
-    "amount": "34999.00",
-    "status": "delivered",
-    "carrier": "Delhivery",
-    "tracking_number": "DL22222222",
-    "delivery": "22, MG Road, Pune - 411001",
-    "created_at": "2025-02-05T10:00:00Z",
-    "updated_at": "2025-02-05T10:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 13,
-  "fields": {
-    "user": 5,
-    "product": 3,
-    "product_name": "CoolBreeze 2 Ton 3 Star Split AC",
-    "amount": "45999.00",
-    "status": "delivered",
-    "carrier": "BlueDart",
-    "tracking_number": "BD33333333",
-    "delivery": "22, MG Road, Pune - 411001",
-    "created_at": "2025-03-01T10:00:00Z",
-    "updated_at": "2025-03-01T10:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 14,
-  "fields": {
-    "user": 5,
-    "product": 4,
-    "product_name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
-    "amount": "38999.00",
-    "status": "delivered",
-    "carrier": "Ekart",
-    "tracking_number": "EK44444444",
-    "delivery": "22, MG Road, Pune - 411001",
-    "created_at": "2025-03-20T10:00:00Z",
-    "updated_at": "2025-03-20T10:00:00Z"
-  }
-},
-{
-  "model": "orders.order",
-  "pk": 15,
-  "fields": {
-    "user": 5,
-    "product": 5,
-    "product_name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
-    "amount": "68999.00",
-    "status": "delivered",
-    "carrier": "BlueDart",
-    "tracking_number": "BD55555555",
-    "delivery": "22, MG Road, Pune - 411001",
-    "created_at": "2025-04-10T10:00:00Z",
-    "updated_at": "2025-04-10T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 1,
-  "fields": {
-    "order": 3,
-    "user": 2,
-    "reason": "Stabilizer stopped working after 3 days. AC not turning on.",
-    "status": "approved",
-    "created_at": "2025-02-20T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 2,
-  "fields": {
-    "order": 2,
-    "user": 2,
-    "reason": "AC is making loud noise during operation. Not acceptable.",
-    "status": "denied",
-    "created_at": "2025-03-20T14:30:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 3,
-  "fields": {
-    "order": 7,
-    "user": 3,
-    "reason": "AC not cooling properly even after installation by technician.",
-    "status": "approved",
-    "created_at": "2025-03-10T09:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 4,
-  "fields": {
-    "order": 8,
-    "user": 4,
-    "reason": "Window AC leaking water inside the room.",
-    "status": "pending",
-    "created_at": "2025-03-25T16:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 5,
-  "fields": {
-    "order": 1,
-    "user": 2,
-    "reason": "AC dispatched 5 days ago but not delivered yet. Want refund.",
-    "status": "pending",
-    "created_at": "2025-04-30T11:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 6,
-  "fields": {
-    "order": 11,
-    "user": 5,
-    "reason": "AC stopped working after 2 days",
-    "status": "approved",
-    "created_at": "2025-01-12T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 7,
-  "fields": {
-    "order": 11,
-    "user": 5,
-    "reason": "Wrong model delivered",
-    "status": "denied",
-    "created_at": "2025-01-20T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 8,
-  "fields": {
-    "order": 12,
-    "user": 5,
-    "reason": "AC making loud noise",
-    "status": "denied",
-    "created_at": "2025-02-08T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 9,
-  "fields": {
-    "order": 12,
-    "user": 5,
-    "reason": "Product not as described",
-    "status": "denied",
-    "created_at": "2025-02-15T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 10,
-  "fields": {
-    "order": 13,
-    "user": 5,
-    "reason": "AC not cooling properly",
-    "status": "approved",
-    "created_at": "2025-03-05T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 11,
-  "fields": {
-    "order": 14,
-    "user": 5,
-    "reason": "Received damaged product",
-    "status": "denied",
-    "created_at": "2025-03-25T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 12,
-  "fields": {
-    "order": 15,
-    "user": 5,
-    "reason": "AC compressor not working",
-    "status": "pending",
-    "created_at": "2025-04-12T10:00:00Z"
-  }
-},
-{
-  "model": "orders.refundrequest",
-  "pk": 13,
-  "fields": {
-    "order": 13,
-    "user": 5,
-    "reason": "Want to return — changed my mind",
-    "status": "denied",
-    "created_at": "2025-03-10T10:00:00Z"
-  }
-},
-{
-  "model": "support.conversation",
-  "pk": 9,
-  "fields": {
-    "user": 3,
-    "order": 7,
-    "created_at": "2026-11-20T14:39:59.478Z"
-  }
-},
-{
-  "model": "support.conversation",
-  "pk": 10,
-  "fields": {
-    "user": 2,
-    "order": 4,
-    "created_at": "2026-11-21T07:00:13.859Z"
-  }
-},
-{
-  "model": "support.message",
-  "pk": 70,
-  "fields": {
-    "conversation": 9,
-    "role": "user",
-    "content": "hi",
-    "created_at": "2026-11-20T14:39:59.481Z"
-  }
-},
-{
-  "model": "support.message",
-  "pk": 71,
-  "fields": {
-    "conversation": 9,
-    "role": "assistant",
-    "content": "Hi, this is Maya from CoolBreeze AC. I can see your order #7 for the CoolBreeze 2 Ton 3 Star Split AC, which shows as delivered. How can I help you with it today?",
-    "created_at": "2026-11-20T14:40:03.478Z"
-  }
-},
-{
-  "model": "support.message",
-  "pk": 80,
-  "fields": {
-    "conversation": 10,
-    "role": "user",
-    "content": "hi",
-    "created_at": "2026-11-21T07:00:13.862Z"
-  }
-},
-{
-  "model": "support.message",
-  "pk": 81,
-  "fields": {
-    "conversation": 10,
-    "role": "assistant",
-    "content": "Hi, this is Maya from CoolBreeze AC. I can see your order #4, the CoolBreeze Universal AC Remote Control, which is marked as cancelled. How can I help you with it today?",
-    "created_at": "2026-11-21T07:00:17.217Z"
-  }
-},
-{
-  "model": "support.message",
-  "pk": 82,
-  "fields": {
-    "conversation": 10,
-    "role": "user",
-    "content": "i want a refund",
-    "created_at": "2026-11-21T07:01:18.486Z"
-  }
-},
-{
-  "model": "support.message",
-  "pk": 83,
-  "fields": {
-    "conversation": 10,
-    "role": "assistant",
-    "content": "Thanks for your patience. I checked with my team about order #4, the Universal AC Remote Control. It was cancelled before it shipped, and we have no record that you were charged for it, so we can't issue a refund. If you think you were charged Rs 899.00, please send me a bank statement or transaction ID. We'll then have our payments team check it and reverse the charge if one was made.",
-    "created_at": "2026-11-21T07:01:39.413Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 141,
-  "fields": {
-    "conversation": 9,
-    "event_type": "tool_call",
-    "message": "Calling toolget_order_details with {'order_id': 7}",
-    "created_at": "2026-11-20T14:40:01.793Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 142,
-  "fields": {
-    "conversation": 9,
-    "event_type": "tool_result",
-    "message": "get_order_details returned: {'order_id': 7, 'product_name': 'CoolBreeze 2 Ton 3 Star Split AC', 'amount': '45999.00', 'status': 'delivered', 'carrier': 'BlueDart', 'tracking_number': 'BD77412390', 'delivery_address': '7, Linking",
-    "created_at": "2026-11-20T14:40:01.816Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 143,
-  "fields": {
-    "conversation": 9,
-    "event_type": "final",
-    "message": "Hi, this is Maya from CoolBreeze AC. I can see your order #7 for the CoolBreeze 2 Ton 3 Star Split AC, which shows as delivered. How can I help you with it today?",
-    "created_at": "2026-11-20T14:40:03.457Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 189,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_call",
-    "message": "Calling toolget_order_details with {'order_id': 4}",
-    "created_at": "2026-11-21T07:00:16.011Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 190,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_result",
-    "message": "get_order_details returned: {'order_id': 4, 'product_name': 'CoolBreeze Universal AC Remote Control', 'amount': '899.00', 'status': 'cancelled', 'carrier': '', 'tracking_number': '', 'delivery_address': '14, Residency Road, Shiv",
-    "created_at": "2026-11-21T07:00:16.015Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 191,
-  "fields": {
-    "conversation": 10,
-    "event_type": "final",
-    "message": "Hi, this is Maya from CoolBreeze AC. I can see your order #4, the CoolBreeze Universal AC Remote Control, which is marked as cancelled. How can I help you with it today?",
-    "created_at": "2026-11-21T07:00:17.196Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 192,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_call",
-    "message": "Calling toolget_order_details with {'order_id': 4}",
-    "created_at": "2026-11-21T07:01:20.883Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 193,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_result",
-    "message": "get_order_details returned: {'order_id': 4, 'product_name': 'CoolBreeze Universal AC Remote Control', 'amount': '899.00', 'status': 'cancelled', 'carrier': '', 'tracking_number': '', 'delivery_address': '14, Residency Road, Shiv",
-    "created_at": "2026-11-21T07:01:20.905Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 194,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_call",
-    "message": "Calling toolget_refund_history with {'user_id': 2}",
-    "created_at": "2026-11-21T07:01:20.907Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 195,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_result",
-    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
-    "created_at": "2026-11-21T07:01:20.912Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 196,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_call",
-    "message": "Calling toolescalate_to_manager with {'case_summary': 'Customer User ID: 2\\nOrder #4: CoolBreeze Universal AC Remote Control, Rs 899.00, ordered 28 Apr 2025 (571 days ago), status cancelled, no carrier or tracking number assigned.\\nComplaint: Customer is requesting a refund on this order and has not given a further reason.\\nRefund history: 3 previous requests. Order #1 (Split AC, not delivered) is pending. Order #2 (Split AC, loud noise) was denied. Order #3 (Voltage Stabilizer, stopped working) was approved.\\nPlease review and decide on the refund. Note that it is unclear whether the cancelled order was ever charged.'}",
-    "created_at": "2026-11-21T07:01:23.624Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 197,
-  "fields": {
-    "conversation": 10,
-    "event_type": "manager",
-    "message": "Case received for review: Customer User ID: 2\nOrder #4: CoolBreeze Universal AC Remote Control, Rs 899.00, ordered 28 Apr 2025 (571 days ago), status cancelled, no carrier or tracking number assigned.\nComplaint: Customer is re",
-    "created_at": "2026-11-21T07:01:23.646Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 198,
-  "fields": {
-    "conversation": 10,
-    "event_type": "manager",
-    "message": "Consulting risk agent for fraud assessment...",
-    "created_at": "2026-11-21T07:01:25.442Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 199,
-  "fields": {
-    "conversation": 10,
-    "event_type": "risk",
-    "message": "Starting fraud assessment for user 2",
-    "created_at": "2026-11-21T07:01:25.463Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 200,
-  "fields": {
-    "conversation": 10,
-    "event_type": "risk",
-    "message": "Calling get_customer_risk_profile to get customer risk profile...",
-    "created_at": "2026-11-21T07:01:27.235Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 201,
-  "fields": {
-    "conversation": 10,
-    "event_type": "risk",
-    "message": "Calling get_customer_risk_profile to get customer risk profile...",
-    "created_at": "2026-11-21T07:01:29.000Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 202,
-  "fields": {
-    "conversation": 10,
-    "event_type": "risk",
-    "message": "Verdict: I can't give a risk level for user ID 2, because the tool returned no data.\n\n- **Risk Level:** Not determined\n- **Key Signals:** I called `get_customer_risk_profile` for user ID 2 twice, and both call",
-    "created_at": "2026-11-21T07:01:33.158Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 203,
-  "fields": {
-    "conversation": 10,
-    "event_type": "manager",
-    "message": "Decision: **Decision: Deny refund (without prejudice)**\n\n**Reason:**\n- Order #4 was **cancelled before shipment**. It has no carrier or tracking number, so the customer never received the item. There is nothing",
-    "created_at": "2026-11-21T07:01:37.532Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 204,
-  "fields": {
-    "conversation": 10,
-    "event_type": "tool_result",
-    "message": "escalate_to_manager returned: **Decision: Deny refund (without prejudice)**\n\n**Reason:**\n- Order #4 was **cancelled before shipment**. It has no carrier or tracking number, so the customer never received the item. There is nothing",
-    "created_at": "2026-11-21T07:01:37.554Z"
-  }
-},
-{
-  "model": "support.agentlog",
-  "pk": 205,
-  "fields": {
-    "conversation": 10,
-    "event_type": "final",
-    "message": "Thanks for your patience. I checked with my team about order #4, the Universal AC Remote Control. It was cancelled before it shipped, and we have no record that you were charged for it, so we can't issue a refund. If you think you were charged Rs 899.00, please send me a bank statement or transaction ID. We'll then have our payments team check it and reverse the charge if one was made.",
-    "created_at": "2026-11-21T07:01:39.392Z"
-  }
-}
-]
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-11-16T14:34:02.609Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "7",
+    "object_repr": "assistant: Hello, this is Maya from CoolBreeze AC. How can I ",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-11-17T07:33:39.158Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Conversation #1 - rathan /Order #4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-11-18T11:24:00.809Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Conversation #2 - rathan /Order #1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-11-18T11:25:46.789Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "fraud_test",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-11-19T07:57:26.074Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Conversation #3 - fraud_test /Order #13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.512Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "90",
+    "object_repr": "[final] - You're right, and I'm sorry. Your order ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.512Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "89",
+    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.512Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "88",
+    "object_repr": "[manager] - Decision: **Decision: Approve refund of ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.512Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "87",
+    "object_repr": "[risk] - Verdict: I can't give a risk verdict for",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.512Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "86",
+    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.512Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "85",
+    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "84",
+    "object_repr": "[risk] - Starting fraud assessment for user 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "83",
+    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "82",
+    "object_repr": "[manager] - Case received for review: Customer User ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "81",
+    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "80",
+    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "79",
+    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "78",
+    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "77",
+    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "76",
+    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "75",
+    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "74",
+    "object_repr": "[final] - Thanks for your patience. I checked with",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "73",
+    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "72",
+    "object_repr": "[manager] - Decision: **Decision: Deny refund for no",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "71",
+    "object_repr": "[risk] - Verdict: I can't give a risk verdict for",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "70",
+    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "69",
+    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "68",
+    "object_repr": "[risk] - Starting fraud assessment for user 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "67",
+    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "66",
+    "object_repr": "[manager] - Case received for review: Customer User ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "65",
+    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "64",
+    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "63",
+    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "62",
+    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "61",
+    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "60",
+    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "59",
+    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "58",
+    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "57",
+    "object_repr": "[manager] - Decision: **Decision: Approve refund of ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "56",
+    "object_repr": "[risk] - Verdict: **Risk Level:** Cannot be deter",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "55",
+    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "54",
+    "object_repr": "[risk] - Starting fraud assessment for user 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "53",
+    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "52",
+    "object_repr": "[manager] - Case received for review: Customer User ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "51",
+    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "50",
+    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "49",
+    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "48",
+    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "47",
+    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "46",
+    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "45",
+    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "44",
+    "object_repr": "[tool_result] - escalate_to_manager returned: **Decision",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "43",
+    "object_repr": "[manager] - Decision: **Decision: Deny refund for no",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "42",
+    "object_repr": "[risk] - Verdict: **Risk Level:** Cannot be deter",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "41",
+    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "40",
+    "object_repr": "[risk] - Calling get_customer_risk_profile to get",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "39",
+    "object_repr": "[risk] - Starting fraud assessment for user 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "38",
+    "object_repr": "[manager] - Consulting risk agent for fraud assessme",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "37",
+    "object_repr": "[manager] - Case received for review: Customer User ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "36",
+    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "35",
+    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "34",
+    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "33",
+    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "32",
+    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "31",
+    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "30",
+    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "29",
+    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "28",
+    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "27",
+    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "26",
+    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "25",
+    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "24",
+    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "23",
+    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "22",
+    "object_repr": "[tool_call] - Calling toolescalate_to_manager with {'c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "21",
+    "object_repr": "[tool_result] - check_delivery_status returned: {'status",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "20",
+    "object_repr": "[tool_call] - Calling toolcheck_delivery_status with {",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "19",
+    "object_repr": "[tool_result] - get_refund_history returned: {'total_ref",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "18",
+    "object_repr": "[tool_call] - Calling toolget_refund_history with {'us",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "17",
+    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "16",
+    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "15",
+    "object_repr": "[final] - Hi, this is Maya from CoolBreeze AC. I c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "14",
+    "object_repr": "[tool_result] - get_order_details returned: {'order_id':",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-11-19T08:50:10.513Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "13",
+    "object_repr": "[tool_call] - Calling toolget_order_details with {'ord",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-11-19T08:50:17.925Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Conversation #4 - priya /Order #6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-11-21T09:35:18.742Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Conversation #8 - rathan /Order #2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-11-21T09:35:18.742Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Conversation #7 - rathan /Order #3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-11-21T09:35:18.742Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Conversation #6 - arjun /Order #9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-11-21T09:35:18.742Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Conversation #5 - priya /Order #6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
+    "last_login": "2026-11-21T09:35:01.469Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Admin",
+    "last_name": "",
+    "email": "mannyusha07@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
+    "last_login": "2026-11-21T07:01:10.748Z",
+    "is_superuser": false,
+    "username": "rathan",
+    "first_name": "Rathan",
+    "last_name": "Kumar",
+    "email": "rathan.kumar@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
+    "last_login": "2026-11-20T14:39:47.070Z",
+    "is_superuser": false,
+    "username": "priya",
+    "first_name": "Priya",
+    "last_name": "Sharma",
+    "email": "priya.sharma@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$FDEUeQRCkt3cyqkPriaxJv$dybFsA2q4nLm4zsJPfm3FSujUi2LLpUOroxgRV8NP0I=",
+    "last_login": "2026-11-19T09:14:48.080Z",
+    "is_superuser": false,
+    "username": "arjun",
+    "first_name": "Arjun",
+    "last_name": "Nair",
+    "email": "arjun.nair@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$oQ2v0d9l2nJOASrH75h4hU$tOc8ee5OrCvdu0WcGtuw3md9F+3vGdM8T9GJjlW0RTE=",
+    "last_login": "2026-11-18T11:25:58.941Z",
+    "is_superuser": false,
+    "username": "fraud_test",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "fraud.test@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-01-01T00:00:00Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 1,
+  "fields": {
+    "name": "CoolBreeze 1 Ton 3 Star Window AC",
+    "description": "Energy efficient 1 ton window AC with 3 star rating, auto restart, sleep mode and dust filter. Ideal for rooms up to 120 sq ft.",
+    "price": "28999.00",
+    "category": "Window AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 2,
+  "fields": {
+    "name": "CoolBreeze 1.5 Ton 3 Star Split AC",
+    "description": "1.5 ton split AC with 3 star rating, turbo cool technology, auto clean and dehumidifier function. Ideal for rooms up to 180 sq ft.",
+    "price": "34999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 3,
+  "fields": {
+    "name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
+    "description": "Premium 1.5 ton inverter split AC with 5 star rating, wifi control, auto diagnosis and 4 way swing. Ideal for rooms up to 180 sq ft.",
+    "price": "42999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 4,
+  "fields": {
+    "name": "CoolBreeze 2 Ton 3 Star Split AC",
+    "description": "Heavy duty 2 ton split AC with 3 star rating, rapid cooling, self cleaning filter and auto restart after power cut. Ideal for rooms up to 240 sq ft.",
+    "price": "45999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 5,
+  "fields": {
+    "name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
+    "description": "Compact 1 ton inverter split AC with 5 star rating, voice control, pm 2.5 filter and weekly timer. Ideal for rooms up to 120 sq ft.",
+    "price": "38999.00",
+    "category": "Split AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 6,
+  "fields": {
+    "name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
+    "description": "Commercial grade 2 ton cassette AC with 5 star inverter rating, 360 degree airflow, central drain pump and remote diagnostics. Ideal for offices up to 300 sq ft.",
+    "price": "68999.00",
+    "category": "Cassette AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 7,
+  "fields": {
+    "name": "CoolBreeze 1.5 Ton Portable AC",
+    "description": "No installation required portable AC with 1.5 ton capacity, dual fan speed, dehumidifier mode and 24 hour timer. Ideal for temporary cooling needs.",
+    "price": "32999.00",
+    "category": "Portable AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 8,
+  "fields": {
+    "name": "CoolBreeze 2 Ton Tower AC",
+    "description": "Floor standing 2 ton tower AC with inverter technology, 7 speed fan, air purifier with HEPA filter and child lock. Ideal for large halls up to 280 sq ft.",
+    "price": "55999.00",
+    "category": "Tower AC",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 9,
+  "fields": {
+    "name": "CoolBreeze AC Voltage Stabilizer 5KVA",
+    "description": "Heavy duty voltage stabilizer for ACs up to 2 ton. Protects against voltage fluctuations between 90V to 290V with time delay and digital display.",
+    "price": "4999.00",
+    "category": "Accessories",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.product",
+  "pk": 10,
+  "fields": {
+    "name": "CoolBreeze Universal AC Remote Control",
+    "description": "Universal remote compatible with all CoolBreeze AC models. Features LCD display, timer, sleep mode and turbo button. Includes 2 AAA batteries.",
+    "price": "899.00",
+    "category": "Accessories",
+    "in_stock": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "product": 3,
+    "product_name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
+    "amount": "42999.00",
+    "status": "dispatched",
+    "carrier": "BlueDart",
+    "tracking_number": "BD99281733",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-04-26T10:30:00Z",
+    "updated_at": "2025-04-26T10:30:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "product": 2,
+    "product_name": "CoolBreeze 1.5 Ton 3 Star Split AC",
+    "amount": "34999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL44729103",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-03-11T14:00:00Z",
+    "updated_at": "2025-03-11T14:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "product": 9,
+    "product_name": "CoolBreeze AC Voltage Stabilizer 5KVA",
+    "amount": "4999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL88103742",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-02-16T09:15:00Z",
+    "updated_at": "2025-02-16T09:15:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "user": 2,
+    "product": 10,
+    "product_name": "CoolBreeze Universal AC Remote Control",
+    "amount": "899.00",
+    "status": "cancelled",
+    "carrier": "",
+    "tracking_number": "",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-04-28T16:45:00Z",
+    "updated_at": "2025-04-28T16:45:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "product": 5,
+    "product_name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
+    "amount": "38999.00",
+    "status": "pending",
+    "carrier": "",
+    "tracking_number": "",
+    "delivery": "14, Residency Road, Shivajinagar, Bangalore - 560025",
+    "created_at": "2025-04-30T20:00:00Z",
+    "updated_at": "2025-04-30T20:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "user": 3,
+    "product": 6,
+    "product_name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
+    "amount": "68999.00",
+    "status": "dispatched",
+    "carrier": "Ekart",
+    "tracking_number": "EK556612309",
+    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+    "created_at": "2025-04-27T11:00:00Z",
+    "updated_at": "2025-04-27T11:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "user": 3,
+    "product": 4,
+    "product_name": "CoolBreeze 2 Ton 3 Star Split AC",
+    "amount": "45999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD77412390",
+    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+    "created_at": "2025-03-01T08:30:00Z",
+    "updated_at": "2025-03-01T08:30:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "user": 4,
+    "product": 1,
+    "product_name": "CoolBreeze 1 Ton 3 Star Window AC",
+    "amount": "28999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL33219876",
+    "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
+    "created_at": "2025-03-15T13:20:00Z",
+    "updated_at": "2025-03-15T13:20:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "user": 4,
+    "product": 8,
+    "product_name": "CoolBreeze 2 Ton Tower AC",
+    "amount": "55999.00",
+    "status": "dispatched",
+    "carrier": "BlueDart",
+    "tracking_number": "BD10293847",
+    "delivery": "23, Anna Salai, Teynampet, Chennai - 600018",
+    "created_at": "2025-04-25T17:10:00Z",
+    "updated_at": "2025-04-25T17:10:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "user": 3,
+    "product": 7,
+    "product_name": "CoolBreeze 1.5 Ton Portable AC",
+    "amount": "32999.00",
+    "status": "pending",
+    "carrier": "",
+    "tracking_number": "",
+    "delivery": "7, Linking Road, Bandra West, Mumbai - 400050",
+    "created_at": "2025-05-01T10:00:00Z",
+    "updated_at": "2025-05-01T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "user": 5,
+    "product": 1,
+    "product_name": "CoolBreeze 1.5 Ton 5 Star Inverter Split AC",
+    "amount": "42999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD11111111",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-01-10T10:00:00Z",
+    "updated_at": "2025-01-10T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "user": 5,
+    "product": 2,
+    "product_name": "CoolBreeze 1.5 Ton 3 Star Split AC",
+    "amount": "34999.00",
+    "status": "delivered",
+    "carrier": "Delhivery",
+    "tracking_number": "DL22222222",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-02-05T10:00:00Z",
+    "updated_at": "2025-02-05T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "user": 5,
+    "product": 3,
+    "product_name": "CoolBreeze 2 Ton 3 Star Split AC",
+    "amount": "45999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD33333333",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-03-01T10:00:00Z",
+    "updated_at": "2025-03-01T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "user": 5,
+    "product": 4,
+    "product_name": "CoolBreeze 1 Ton 5 Star Inverter Split AC",
+    "amount": "38999.00",
+    "status": "delivered",
+    "carrier": "Ekart",
+    "tracking_number": "EK44444444",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-03-20T10:00:00Z",
+    "updated_at": "2025-03-20T10:00:00Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "user": 5,
+    "product": 5,
+    "product_name": "CoolBreeze 2 Ton 5 Star Inverter Cassette AC",
+    "amount": "68999.00",
+    "status": "delivered",
+    "carrier": "BlueDart",
+    "tracking_number": "BD55555555",
+    "delivery": "22, MG Road, Pune - 411001",
+    "created_at": "2025-04-10T10:00:00Z",
+    "updated_at": "2025-04-10T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 1,
+  "fields": {
+    "order": 3,
+    "user": 2,
+    "reason": "Stabilizer stopped working after 3 days. AC not turning on.",
+    "status": "approved",
+    "created_at": "2025-02-20T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "user": 2,
+    "reason": "AC is making loud noise during operation. Not acceptable.",
+    "status": "denied",
+    "created_at": "2025-03-20T14:30:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 3,
+  "fields": {
+    "order": 7,
+    "user": 3,
+    "reason": "AC not cooling properly even after installation by technician.",
+    "status": "approved",
+    "created_at": "2025-03-10T09:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 4,
+  "fields": {
+    "order": 8,
+    "user": 4,
+    "reason": "Window AC leaking water inside the room.",
+    "status": "pending",
+    "created_at": "2025-03-25T16:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 5,
+  "fields": {
+    "order": 1,
+    "user": 2,
+    "reason": "AC dispatched 5 days ago but not delivered yet. Want refund.",
+    "status": "pending",
+    "created_at": "2025-04-30T11:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 6,
+  "fields": {
+    "order": 11,
+    "user": 5,
+    "reason": "AC stopped working after 2 days",
+    "status": "approved",
+    "created_at": "2025-01-12T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 7,
+  "fields": {
+    "order": 11,
+    "user": 5,
+    "reason": "Wrong model delivered",
+    "status": "denied",
+    "created_at": "2025-01-20T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 8,
+  "fields": {
+    "order": 12,
+    "user": 5,
+    "reason": "AC making loud noise",
+    "status": "denied",
+    "created_at": "2025-02-08T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 9,
+  "fields": {
+    "order": 12,
+    "user": 5,
+    "reason": "Product not as described",
+    "status": "denied",
+    "created_at": "2025-02-15T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 10,
+  "fields": {
+    "order": 13,
+    "user": 5,
+    "reason": "AC not cooling properly",
+    "status": "approved",
+    "created_at": "2025-03-05T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 11,
+  "fields": {
+    "order": 14,
+    "user": 5,
+    "reason": "Received damaged product",
+    "status": "denied",
+    "created_at": "2025-03-25T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 12,
+  "fields": {
+    "order": 15,
+    "user": 5,
+    "reason": "AC compressor not working",
+    "status": "pending",
+    "created_at": "2025-04-12T10:00:00Z"
+  }
+},
+{
+  "model": "orders.refundrequest",
+  "pk": 13,
+  "fields": {
+    "order": 13,
+    "user": 5,
+    "reason": "Want to return â€” changed my mind",
+    "status": "denied",
+    "created_at": "2025-03-10T10:00:00Z"
+  }
+},
+{
+  "model": "support.conversation",
+  "pk": 9,
+  "fields": {
+    "user": 3,
+    "order": 7,
+    "created_at": "2026-11-20T14:39:59.478Z"
+  }
+},
+{
+  "model": "support.conversation",
+  "pk": 10,
+  "fields": {
+    "user": 2,
+    "order": 4,
+    "created_at": "2026-11-21T07:00:13.859Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 70,
+  "fields": {
+    "conversation": 9,
+    "role": "user",
+    "content": "hi",
+    "created_at": "2026-11-20T14:39:59.481Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 71,
+  "fields": {
+    "conversation": 9,
+    "role": "assistant",
+    "content": "Hi, this is Maya from CoolBreeze AC. I can see your order #7 for the CoolBreeze 2 Ton 3 Star Split AC, which shows as delivered. How can I help you with it today?",
+    "created_at": "2026-11-20T14:40:03.478Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 80,
+  "fields": {
+    "conversation": 10,
+    "role": "user",
+    "content": "hi",
+    "created_at": "2026-11-21T07:00:13.862Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 81,
+  "fields": {
+    "conversation": 10,
+    "role": "assistant",
+    "content": "Hi, this is Maya from CoolBreeze AC. I can see your order #4, the CoolBreeze Universal AC Remote Control, which is marked as cancelled. How can I help you with it today?",
+    "created_at": "2026-11-21T07:00:17.217Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 82,
+  "fields": {
+    "conversation": 10,
+    "role": "user",
+    "content": "i want a refund",
+    "created_at": "2026-11-21T07:01:18.486Z"
+  }
+},
+{
+  "model": "support.message",
+  "pk": 83,
+  "fields": {
+    "conversation": 10,
+    "role": "assistant",
+    "content": "Thanks for your patience. I checked with my team about order #4, the Universal AC Remote Control. It was cancelled before it shipped, and we have no record that you were charged for it, so we can't issue a refund. If you think you were charged Rs 899.00, please send me a bank statement or transaction ID. We'll then have our payments team check it and reverse the charge if one was made.",
+    "created_at": "2026-11-21T07:01:39.413Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 141,
+  "fields": {
+    "conversation": 9,
+    "event_type": "tool_call",
+    "message": "Calling toolget_order_details with {'order_id': 7}",
+    "created_at": "2026-11-20T14:40:01.793Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 142,
+  "fields": {
+    "conversation": 9,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 7, 'product_name': 'CoolBreeze 2 Ton 3 Star Split AC', 'amount': '45999.00', 'status': 'delivered', 'carrier': 'BlueDart', 'tracking_number': 'BD77412390', 'delivery_address': '7, Linking",
+    "created_at": "2026-11-20T14:40:01.816Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 143,
+  "fields": {
+    "conversation": 9,
+    "event_type": "final",
+    "message": "Hi, this is Maya from CoolBreeze AC. I can see your order #7 for the CoolBreeze 2 Ton 3 Star Split AC, which shows as delivered. How can I help you with it today?",
+    "created_at": "2026-11-20T14:40:03.457Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 189,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_call",
+    "message": "Calling toolget_order_details with {'order_id': 4}",
+    "created_at": "2026-11-21T07:00:16.011Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 190,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 4, 'product_name': 'CoolBreeze Universal AC Remote Control', 'amount': '899.00', 'status': 'cancelled', 'carrier': '', 'tracking_number': '', 'delivery_address': '14, Residency Road, Shiv",
+    "created_at": "2026-11-21T07:00:16.015Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 191,
+  "fields": {
+    "conversation": 10,
+    "event_type": "final",
+    "message": "Hi, this is Maya from CoolBreeze AC. I can see your order #4, the CoolBreeze Universal AC Remote Control, which is marked as cancelled. How can I help you with it today?",
+    "created_at": "2026-11-21T07:00:17.196Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 192,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_call",
+    "message": "Calling toolget_order_details with {'order_id': 4}",
+    "created_at": "2026-11-21T07:01:20.883Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 193,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_result",
+    "message": "get_order_details returned: {'order_id': 4, 'product_name': 'CoolBreeze Universal AC Remote Control', 'amount': '899.00', 'status': 'cancelled', 'carrier': '', 'tracking_number': '', 'delivery_address': '14, Residency Road, Shiv",
+    "created_at": "2026-11-21T07:01:20.905Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 194,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_call",
+    "message": "Calling toolget_refund_history with {'user_id': 2}",
+    "created_at": "2026-11-21T07:01:20.907Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 195,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_result",
+    "message": "get_refund_history returned: {'total_refund_requests': 3, 'history': [{'order_id': 1, 'product': 'CoolBreeze 1.5 Ton 5 Star Inverter Split AC', 'reason': 'AC dispatched 5 days ago but not delivered yet. Want refund.', 'status': '",
+    "created_at": "2026-11-21T07:01:20.912Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 196,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_call",
+    "message": "Calling toolescalate_to_manager with {'case_summary': 'Customer User ID: 2\\nOrder #4: CoolBreeze Universal AC Remote Control, Rs 899.00, ordered 28 Apr 2025 (571 days ago), status cancelled, no carrier or tracking number assigned.\\nComplaint: Customer is requesting a refund on this order and has not given a further reason.\\nRefund history: 3 previous requests. Order #1 (Split AC, not delivered) is pending. Order #2 (Split AC, loud noise) was denied. Order #3 (Voltage Stabilizer, stopped working) was approved.\\nPlease review and decide on the refund. Note that it is unclear whether the cancelled order was ever charged.'}",
+    "created_at": "2026-11-21T07:01:23.624Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 197,
+  "fields": {
+    "conversation": 10,
+    "event_type": "manager",
+    "message": "Case received for review: Customer User ID: 2\nOrder #4: CoolBreeze Universal AC Remote Control, Rs 899.00, ordered 28 Apr 2025 (571 days ago), status cancelled, no carrier or tracking number assigned.\nComplaint: Customer is re",
+    "created_at": "2026-11-21T07:01:23.646Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 198,
+  "fields": {
+    "conversation": 10,
+    "event_type": "manager",
+    "message": "Consulting risk agent for fraud assessment...",
+    "created_at": "2026-11-21T07:01:25.442Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 199,
+  "fields": {
+    "conversation": 10,
+    "event_type": "risk",
+    "message": "Starting fraud assessment for user 2",
+    "created_at": "2026-11-21T07:01:25.463Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 200,
+  "fields": {
+    "conversation": 10,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-11-21T07:01:27.235Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 201,
+  "fields": {
+    "conversation": 10,
+    "event_type": "risk",
+    "message": "Calling get_customer_risk_profile to get customer risk profile...",
+    "created_at": "2026-11-21T07:01:29.000Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 202,
+  "fields": {
+    "conversation": 10,
+    "event_type": "risk",
+    "message": "Verdict: I can't give a risk level for user ID 2, because the tool returned no data.\n\n- **Risk Level:** Not determined\n- **Key Signals:** I called `get_customer_risk_profile` for user ID 2 twice, and both call",
+    "created_at": "2026-11-21T07:01:33.158Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 203,
+  "fields": {
+    "conversation": 10,
+    "event_type": "manager",
+    "message": "Decision: **Decision: Deny refund (without prejudice)**\n\n**Reason:**\n- Order #4 was **cancelled before shipment**. It has no carrier or tracking number, so the customer never received the item. There is nothing",
+    "created_at": "2026-11-21T07:01:37.532Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 204,
+  "fields": {
+    "conversation": 10,
+    "event_type": "tool_result",
+    "message": "escalate_to_manager returned: **Decision: Deny refund (without prejudice)**\n\n**Reason:**\n- Order #4 was **cancelled before shipment**. It has no carrier or tracking number, so the customer never received the item. There is nothing",
+    "created_at": "2026-11-21T07:01:37.554Z"
+  }
+},
+{
+  "model": "support.agentlog",
+  "pk": 205,
+  "fields": {
+    "conversation": 10,
+    "event_type": "final",
+    "message": "Thanks for your patience. I checked with my team about order #4, the Universal AC Remote Control. It was cancelled before it shipped, and we have no record that you were charged for it, so we can't issue a refund. If you think you were charged Rs 899.00, please send me a bank statement or transaction ID. We'll then have our payments team check it and reverse the charge if one was made.",
+    "created_at": "2026-11-21T07:01:39.392Z"
+  }
+}
+]
